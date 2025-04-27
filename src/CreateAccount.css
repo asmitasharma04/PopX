@@ -1,0 +1,47 @@
+.form-container {
+    width: 400px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+  
+  .agency {
+    margin-bottom: 20px;
+  }
+  
+  .agency label {
+    margin-right: 20px;
+  }
+  
+  .register-btn {
+    padding: 14px;
+    background-color: #1E70FF;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .register-btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  

@@ -1,0 +1,129 @@
+/* App.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* vertically center */
+  align-items: center;     /* horizontally center */
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #555;
+  margin: 5px 0;
+}
+
+.button-group {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 250px;
+}
+
+.btn {
+  padding: 12px;
+  font-size: 16px;
+  background-color: #1E70FF;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0053d6;
+}
+.container, .form-container {
+  padding: 30px;
+  max-width: 400px;
+  margin: auto;
+}
+
+h1, h2 {
+  font-weight: bold;
+}
+
+p {
+  margin-bottom: 10px;
+  color: #555;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.login-btn {
+  margin-top: 20px;
+}
+.account-container {
+  padding: 30px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.account-card {
+  background-color: #f5f8fa;
+  padding: 20px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.profile-section {
+  position: relative;
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.camera-icon {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: #9333ea;
+  color: white;
+  border-radius: 50%;
+  padding: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.user-info {
+  flex: 1;
+  min-width: 200px;
+}
+
+.user-description {
+  flex: 2;
+  min-width: 300px;
+}
